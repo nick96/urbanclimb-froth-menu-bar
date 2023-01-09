@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95660B9296C27F8007632A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E95660B8296C27F8007632A3 /* README.md */; };
 		E9631F502951C41600F3D07B /* urbanclimb_frothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9631F4F2951C41600F3D07B /* urbanclimb_frothApp.swift */; };
 		E9631F542951C41700F3D07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9631F532951C41700F3D07B /* Assets.xcassets */; };
 		E9631F582951C41700F3D07B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9631F572951C41700F3D07B /* Preview Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E95660B8296C27F8007632A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9631F4C2951C41600F3D07B /* urbanclimb-froth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urbanclimb-froth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9631F4F2951C41600F3D07B /* urbanclimb_frothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urbanclimb_frothApp.swift; sourceTree = "<group>"; };
 		E9631F532951C41700F3D07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		E9631F432951C41600F3D07B = {
 			isa = PBXGroup;
 			children = (
+				E95660B8296C27F8007632A3 /* README.md */,
 				E9631F4E2951C41600F3D07B /* urbanclimb-froth */,
 				E9631F602951C41700F3D07B /* urbanclimb-frothTests */,
 				E9631F6A2951C41700F3D07B /* urbanclimb-frothUITests */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95660B9296C27F8007632A3 /* README.md in Resources */,
 				E9631F582951C41700F3D07B /* Preview Assets.xcassets in Resources */,
 				E9631F542951C41700F3D07B /* Assets.xcassets in Resources */,
 			);
