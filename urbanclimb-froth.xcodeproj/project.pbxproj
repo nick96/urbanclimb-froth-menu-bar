@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E9631F502951C41600F3D07B /* urbanclimb_frothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9631F4F2951C41600F3D07B /* urbanclimb_frothApp.swift */; };
-		E9631F522951C41600F3D07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9631F512951C41600F3D07B /* ContentView.swift */; };
 		E9631F542951C41700F3D07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9631F532951C41700F3D07B /* Assets.xcassets */; };
 		E9631F582951C41700F3D07B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9631F572951C41700F3D07B /* Preview Assets.xcassets */; };
 		E9631F622951C41700F3D07B /* urbanclimb_frothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9631F612951C41700F3D07B /* urbanclimb_frothTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		E9631F4C2951C41600F3D07B /* urbanclimb-froth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urbanclimb-froth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9631F4F2951C41600F3D07B /* urbanclimb_frothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urbanclimb_frothApp.swift; sourceTree = "<group>"; };
-		E9631F512951C41600F3D07B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9631F532951C41700F3D07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9631F552951C41700F3D07B /* urbanclimb_froth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = urbanclimb_froth.entitlements; sourceTree = "<group>"; };
 		E9631F572951C41700F3D07B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				E9631F4F2951C41600F3D07B /* urbanclimb_frothApp.swift */,
-				E9631F512951C41600F3D07B /* ContentView.swift */,
 				E9631F532951C41700F3D07B /* Assets.xcassets */,
 				E9631F552951C41700F3D07B /* urbanclimb_froth.entitlements */,
 				E9631F562951C41700F3D07B /* Preview Content */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9631F522951C41600F3D07B /* ContentView.swift in Sources */,
 				E9631F502951C41600F3D07B /* urbanclimb_frothApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
