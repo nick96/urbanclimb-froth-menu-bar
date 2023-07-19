@@ -62,6 +62,7 @@ struct ContentView: View {
                     Text(venue.name).fontWeight(.semibold)
                     Text("(\(venue.status)): ")
                     Text(venue.froth)
+                    Text("(\(Int(floor(venue.capacity)))%)")
                 }
             }.task {
                 await vm.populateVenueStatus()
@@ -80,11 +81,13 @@ struct VenueStatus: Codable {
     let name: String
     let status: String
     let froth: String
+    let capacity: Float
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"
         case status = "GoogleStatus"
         case froth = "Status"
+        case capacity = "CurrentPercentage"
     }
 }
 
@@ -147,4 +150,6 @@ struct VenueStatusViewModel {
     var froth: String {
         venueStatus.froth
     }
+    
+    var capacity: Float { venueStatus.capacity }
 }
